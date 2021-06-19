@@ -14,7 +14,7 @@ public class App
     {
         System.out.println( "Hello World!" );
         
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("./resources/spring.xml");
         
         
         
